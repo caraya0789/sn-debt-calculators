@@ -1,0 +1,1067 @@
+@font-face {
+  font-family: "Verb";
+  src: url('../fonts/verbbold-webfont.eot');
+  src: url('../fonts/verbbold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/verbbold-webfont.woff') format('woff'), url('../fonts/verbbold-webfont.ttf') format('truetype'), url('../fonts/verbbold-webfont.svg#icon') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Verb";
+  src: url('../fonts/verbsemibold-webfont.eot');
+  src: url('../fonts/verbsemibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/verbsemibold-webfont.woff') format('woff'), url('../fonts/verbsemibold-webfont.ttf') format('truetype'), url('../fonts/verbsemibold-webfont.svg#icon') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Verb";
+  src: url('../fonts/verbmedium-webfont.eot');
+  src: url('../fonts/verbmedium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/verbmedium-webfont.woff') format('woff'), url('../fonts/verbmedium-webfont.ttf') format('truetype'), url('../fonts/verbmedium-webfont.svg#icon') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Verb";
+  src: url('../fonts/verbregular-webfont.eot');
+  src: url('../fonts/verbregular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/verbregular-webfont.woff') format('woff'), url('../fonts/verbregular-webfont.ttf') format('truetype'), url('../fonts/verbregular-webfont.svg#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.ui-menu .ui-menu-item.ui-state-focus {
+  background: #e4ebf7;
+  border: 0 none;
+}
+.ui-tooltip {
+  font-size: 12px;
+  line-height: 18px;
+}
+#calc-container.calc-container {
+  margin: 0 auto;
+  background: #f1f5fb;
+  font-size: 13px;
+  color: #000;
+  text-transform: uppercase;
+  font-family: "Verb";
+  font-weight: 600;
+}
+#calc-container.calc-container .ui-selectmenu-button {
+  outline: 0 none;
+  background: #fff;
+  border-color: #b9c0cb;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  width: 100% !important;
+}
+#calc-container.calc-container .select-block .ui-selectmenu-button {
+  display: block;
+}
+#calc-container.calc-container h3.calc-title {
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden;
+  background: #e4ebf7;
+  color: #2f8eea;
+  margin: 0;
+  padding: 0 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Verb";
+  font-weight: 600;
+}
+#calc-container.calc-container .calc-title:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#calc-container.calc-container .calc-title .calc-float-right {
+  font-family: "Helvetica";
+  font-weight: normal;
+  text-transform: none;
+  padding-top: 5px;
+}
+#calc-container.calc-container .calc-title .calc-float-right .stButton .stBubble {
+  margin: 0 auto;
+  background-image: url('../images/social-arrow.png');
+}
+#calc-container.calc-container .calc-title .calc-float-right .stBubble_count {
+  background: #fff;
+  background-color:#e4ebf7;
+  border: 1px solid #5b5e63;
+  color: #5b5e63;
+}
+#calc-container.calc-container h3.calc-result-title {
+  height: 65px;
+  line-height: 65px;
+  background: #e4ebf7;
+  color: #2f8eea;
+  margin: 0;
+  padding: 0 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Verb";
+  font-weight: 600;
+}
+#calc-container.calc-container .calc-result:first-child h3.calc-result-title {
+  border-bottom: 1px solid #f1f5fb;
+}
+#calc-container.calc-container .calc-result-title a.toggler {
+  color: #2f8eea;
+  float: right;
+  display: none;
+}
+#calc-container.calc-container .calc-result.fill .calc-result-title a.toggler {
+  display: block;
+}
+#calc-container.calc-container .calc-float-right {
+  float: right;
+}
+#calc-container.calc-container .calc-form {
+  padding: 12px 15px;
+}
+#calc-container.calc-container .calc-form .form-title {
+  border-bottom: 1px solid #e3e7ee;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+#calc-container.calc-container .calc-form .form-title label {
+    color: #2f8eea;
+}
+#calc-container.calc-container .calc-form .form-title .delete {
+  position: absolute;
+  right: -5px;
+  top: 0;
+  text-transform: none;
+  font-family: Arial;
+  text-decoration: none;
+  color: #606264;
+  font-size: 25px;
+  line-height: 20px;
+  padding: 0 5px;
+}
+#calc-container.calc-container .calc-form .only .form-title .delete {
+  display: none;
+}
+#calc-container.calc-container .calc-form .form-row {
+  padding: 12px 0;
+  border-bottom: 1px solid #e3e7ee;
+  position: relative;
+  box-sizing: content-box;
+}
+#calc-container.calc-container .calc-form .form-row.last {
+  border-bottom: 0 none;
+}
+#calc-container.calc-container .calc-form .form-row:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#calc-container.calc-container .calc-form .form-row a.delete {
+  position: absolute;
+  right: 0px;
+  top: 11px;
+  text-transform: none;
+  font-family: Arial;
+  text-decoration: none;
+  color: #606264;
+  font-size: 20px;
+}
+#calc-container.calc-container .calc-form .form-row.only a.delete {
+  display: none;
+}
+#calc-container.calc-container .calc-form .form-row .control {
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #b9c0cb;
+  font-size: 13px;
+  padding: 5px;
+  text-transform: uppercase;
+  outline: 0 none;
+  font-family: "Verb";
+  font-weight: 600;
+  border-radius: 0px;
+}
+#calc-container.calc-container .calc-form .form-row .giveup-group {
+  text-transform: none;
+  font-weight: normal;
+  color: #333;
+}
+#calc-container.calc-container .calc-form .form-row .giveup-group .control {
+  width: 60%;
+  margin-right: 5px;
+}
+#calc-container.calc-container .calc-form .form-row .control.error {
+  border-color:red;
+}
+#calc-container.calc-container .calc-form .form-row .control:focus {
+  border-color: #2f8eea;
+}
+#calc-container.calc-container .calc-form .form-row .control.payoff {
+  width: 50%;
+  float: left;
+}
+#calc-container.calc-container .calc-form .payoff-container {
+  overflow: hidden;
+}
+#calc-container.calc-container .calc-form .payoff-container .ui-selectmenu-button {
+  width: 50% !important;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left:0 none;
+  box-shadow: 0 0 transparent;
+}
+#calc-container.calc-container .calc-form .form-header:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#calc-container.calc-container .calc-form .col {
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+
+#calc-container.calc-container .calc-form .calc-debts .form-header .col {
+  width: 33%;
+}
+#calc-container.calc-container .calc-form.repayment-calc .calc-debts .form-header .col,
+#calc-container.calc-container .calc-form.repayment-calc .col {
+  width: 32%;
+}
+#calc-container.calc-container .calc-form .consolidation.calc-debts .form-header .col,
+#calc-container.calc-container .calc-form .consolidation .col {
+  width: 24%;
+}
+#calc-container.calc-container .calc-form .incomeratio .col {
+  width: 49%;
+}
+#calc-container.calc-container .calc-form .col:first-child,
+#calc-container.calc-container .calc-form .col.first {
+  padding-left: 0;
+}
+#calc-container.calc-container .calc-form .col:last-child,
+#calc-container.calc-container .calc-form .col.last {
+  padding-right: 0;
+}
+
+#calc-container.calc-container .calc-form.guilt .col,
+#calc-container.calc-container .calc-form.guilt .calc-debts .col {
+  width: 35%;
+}
+#calc-container.calc-container .calc-form.guilt .col:first-child {
+  width: 25%;
+}
+#calc-container.calc-container .calc-form.guilt .col:last-child {
+  width: 40%;
+}
+#calc-container.calc-container .calc-form .col.two .control {
+  display: inline-block;
+  vertical-align: top;
+}
+#calc-container.calc-container .calc-form .col.two input {
+  width: 37%;
+  margin-right: 2%;
+}
+#calc-container.calc-container .calc-form .col.two select {
+  width: 58%;
+}
+#calc-container.calc-container .calc-form .col.two .ui-selectmenu-button {
+  width: 58% !important;
+}
+#calc-container.calc-container .calc-form.guilt .form-result {
+  padding-bottom: 15px;
+}
+#calc-container.calc-container .calc-form.guilt .form-result:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#calc-container.calc-container .calc-form.guilt .form-result .col {
+  width: 50%;
+  text-align: center;
+  padding: 5px 0;
+}
+#calc-container.calc-container .calc-form.guilt .form-result .col span {
+  font-size: 21px;
+  color: #2f8eea;
+  padding: 0 0px 0 20px;
+}
+#calc-container.calc-container .calc-form.guilt .form-result .col:first-child {
+  border-right: 1px solid #e3e7ee;
+}
+#calc-container.calc-container .calc-form .calc-debts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#calc-container.calc-container .calc-form.guilt .calc-debts {
+  border-bottom: 1px solid #e3e7ee;
+  padding-top: 10px;
+}
+#calc-container.calc-container .calc-form.guilt .calc-debts:first-child {
+  padding-top: 0px;
+}
+#calc-container.calc-container .calc-form .calc-debts.incomeratio.debt {
+  padding-top: 10px;
+}
+#calc-container.calc-container .calc-form .calc-debts label {
+  margin-bottom: 0px;
+  line-height: 17px;
+  display: block;
+}
+#calc-container.calc-container .calc-form .calc-debts .form-title label{
+  line-height: inherit;
+}
+#calc-container.calc-container .calc-form .calc-debts .form-row {
+  height: 30px;  
+}
+#calc-container.calc-container .calc-form.guilt .calc-debts .form-row {
+  border-bottom: 0 none;
+}
+#calc-container.calc-container .calc-form .calc-debts .form-row label {
+  display: none;
+}
+#calc-container.calc-container .calc-form .payment {
+  border-bottom: 1px solid #e3e7ee;
+  margin-bottom: 12px;
+  padding: 12px 0;
+}
+#calc-container.calc-container .calc-form .payment .form-row {
+  border-bottom: 0 none;
+  padding: 0;
+}
+#calc-container.calc-container .calc-form .payment .form-row .col {
+  position: relative;
+  width: 35%;
+  line-height: 30px;
+}
+#calc-container.calc-container .calc-form .payment.creditcard .form-row .col {
+  width: 40%;
+}
+#calc-container.calc-container .calc-form .payment .form-row .col.additional-group .control {
+  width: 47%;
+}
+#calc-container.calc-container .calc-form .payment .form-row .col .ui-selectmenu-button {
+  display: block;
+}
+#calc-container.calc-container .calc-form .payment .form-row .col .control:disabled {
+  background: #eee;
+}
+#calc-container.calc-container .calc-form .payment .form-row .col span.num,
+#calc-container.calc-container .calc-form .calc-debts label span.num {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  text-align: center;
+  background: #2f82d9;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 10px;
+}
+#calc-container.calc-container .calc-form .payment.consolidation .form-row .col {
+  width: 49%;
+}
+#calc-container.calc-container .calc-form .payment .form-row .col .help {
+  position: absolute;
+  color: #858a92;
+  font-weight: normal;
+  text-transform: none;
+  left: 100%;
+  top: 0px;
+  padding: 0 0 0 12px;
+}
+#calc-container.calc-container .calc-form .payment .or {
+  display: block;
+  text-align: center;
+  font-weight: normal;
+  text-transform: none;
+  color: #858a92;
+  position: relative;
+  overflow: hidden;
+}
+#calc-container.calc-container .calc-form .payment .or:before {
+  content: " ";
+  position: absolute;
+  width: 50%;
+  left: -12px;
+  top: 15px;
+  height: 0px;
+  border-bottom: 1px solid #e3e7ee;
+}
+#calc-container.calc-container .calc-form .payment .or:after {
+  content: " ";
+  position: absolute;
+  width: 50%;
+  right: -12px;
+  top: 15px;
+  height: 0px;
+  border-bottom: 1px solid #e3e7ee;
+}
+#calc-container.calc-container .calc-btn {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  height: 34px;
+  padding: 0 10px;
+  line-height: 34px;
+  border: 1px solid #ff8106;
+  color: #ff8106;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+#calc-container.calc-container .calc-form .guilt-action .ui-selectmenu-button {
+  border: 1px solid #ff8106;
+  color: #ff8106;
+  font-weight: 600;
+  width: 145px !important;
+  display: block;
+  padding: 5px 0px 2px 0;
+}
+#calc-container.calc-container .calc-form .guilt-action .ui-selectmenu-button span.ui-icon {
+  right: .8em;
+  top: 49%;
+}
+#calc-container.calc-container .calc-btn i.fa-plus {
+  margin-right: 10px;
+}
+#calc-container.calc-container .calc-btn i.fa-angle-right {
+  margin-left: 10px;
+}
+#calc-container.calc-container .calc-btn.orange {
+  background: #ff8106;
+  color: #fff;
+}
+#calc-container.calc-container .calc-btn.lg {
+  height: 45px;
+  line-height: 45px;
+  padding: 0 30px;
+  font-size: 17px;
+}
+#calc-container.calc-container .calc-result .calc-result-content {
+  padding: 12px 20px;
+  display: none;
+}
+#calc-container.calc-container .calc-result h4 {
+  margin: 0 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e3e7ee;
+  font-size: 13px;
+  color: #000;
+  font-weight: 600;
+}
+#calc-container.calc-container .details {
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+  border-bottom: 1px solid #2f8eea;
+  list-style: none;
+}
+#calc-container.calc-container .details:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#calc-container.calc-container .details li {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 20px 10px 0;
+  height: 100px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: none;
+  border-right: 1px solid #e3e7ee;
+  line-height: normal;
+}
+#calc-container.calc-container .creditcard .details li {
+  width: 20%;
+}
+#calc-container.calc-container .consolidation .details li {
+  width: 50%;
+}
+#calc-container.calc-container .details li:last-child {
+  border-right: 0 none;
+}
+#calc-container.calc-container .details li span {
+  display: block;
+  font-size: 23px;
+  color: #2f8eea;
+  margin-bottom: 18px;
+  line-height: 25px;
+}
+#calc-container.calc-container .chart:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#calc-container.calc-container .chart .chart-graph {
+  float: left;
+  width: 125px;
+}
+#calc-container.calc-container .creditcard .chart .chart-graph,
+#calc-container.calc-container .consolidation .chart .chart-graph {
+  width: auto;
+  float: none;
+  position: relative;
+}
+#calc-container.calc-container .creditcard .chart .chart-graph .chart-bar-label,
+#calc-container.calc-container .consolidation .chart .chart-graph .chart-bar-label {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #fff;
+  font-family: "Verb";
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  line-height: 13px;
+}
+#calc-container.calc-container .chart .chart-details {
+  margin: 0 0 0 170px;
+  list-style: none;
+}
+#calc-container.calc-container .creditcard .chart .chart-details,
+#calc-container.calc-container .consolidation .chart .chart-details {
+  margin: 12px 0 0 0;
+  padding: 0 0 12px 0;
+  border-top: 1px solid #e3e7ee;
+}
+#calc-container.calc-container .chart .chart-details li {
+  line-height: 18px;
+  height: 18px;
+  padding: 12px 0 12px 30px;
+  position: relative;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: none;
+  box-sizing: content-box;
+}
+#calc-container.calc-container .creditcard .chart .chart-details li,
+#calc-container.calc-container .consolidation .chart .chart-details li {
+  display: inline-block;
+  margin-right: 20px;
+}
+#calc-container.calc-container .chart .chart-details li:last-child {
+  border-bottom: 0 none;
+}
+#calc-container.calc-container .chart .chart-details li .circle {
+  position: absolute;
+  top: 12px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  background: #2f8eea;
+  border-radius: 9px;
+}
+#calc-container.calc-container .chart .chart-details li.blue .circle {
+  background: #024789;
+}
+#calc-container.calc-container .chart .chart-details li.orange .circle {
+  background: #ff8106;
+}
+#calc-container.calc-container .chart .chart-details li .label {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 120px;
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-size: 14px;
+  border-radius: 0;
+  font-weight: normal;
+  text-align: left;
+}
+#calc-container.calc-container .chart .chart-details.guilt li .label {
+  width: 150px;
+}
+#calc-container.calc-container .creditcard .chart .chart-details li .label,
+#calc-container.calc-container .consolidation .chart .chart-details li .label {
+  width: auto;
+  text-align: left;
+}
+#calc-container.calc-container .creditcard {
+  position:relative;
+}
+#calc-container.calc-container .creditcard .calc-option-label {
+  display:block;
+  width:24px;
+  height:24px;
+  line-height:24px;
+  text-align:center;
+  font-size:13px;
+  color:#fff;
+  background:#2f82d9;
+  border-radius:12px;
+  position:absolute;
+  bottom: 89px;
+  left: 206px;
+}
+.embeded-calc-single #calc-container.calc-container .creditcard .calc-option-label {
+  display: none;
+}
+#calc-container.calc-container .creditcard .calc-option-label.two {
+  left: 412px;
+  background:#8d9cb5;
+}
+#calc-container.calc-container .creditcard .calc-option-label.three {
+  left: 618px;
+  background:#8d9cb5;
+}
+#calc-container.calc-container .consolidation {
+  position:relative;
+}
+#calc-container.calc-container .consolidation .chart .chart-xAxis-labels {
+  list-style:none;
+  position:absolute;
+  bottom: 60px;
+  overflow:hidden;
+  width: 97%;
+  padding:0px;
+  padding-left: 53px;
+  box-sizing: border-box;
+  padding-right: 23px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  height: 40px;
+}
+#calc-container.calc-container .consolidation .chart .chart-xAxis-labels li {
+  float:left;
+  width:50%;
+  padding:0px;
+  text-align:center;
+}
+
+#calc-container.calc-container .options {
+  width: 100%;
+}
+#calc-container.calc-container .options th.payment span.two {
+  display: none;
+}
+#calc-container.calc-container .options thead {
+  line-height: 18px;
+  text-transform: none;
+  color: #2f8eea;
+}
+#calc-container.calc-container .options thead th {
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+  padding: 10px 5px;
+  border-bottom: 1px solid #e3e7ee;
+}
+#calc-container.calc-container .options td {
+  font-weight: normal;
+  text-transform: none;
+  line-height: 18px;
+  padding: 10px 5px;
+  border-bottom: 1px solid #e3e7ee;
+  vertical-align: top;
+}
+#calc-container.calc-container .options td.solution {
+    min-width: 190px;
+}
+
+#calc-container.calc-container .options td .fa,
+#calc-container.calc-container .calc-form .calc-debts label .fa,
+#calc-container.calc-container .calc-form .col .fa {
+  cursor: pointer;
+  color: #a3a3a3;
+  margin-left: 5px;
+}
+#calc-container.calc-container .options tr:last-child td {
+  border-bottom: 0 none;
+}
+#calc-container.calc-container .calc-bottom:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#calc-container.calc-container .calc-bottom .calc-btn {
+  float: right;
+}
+#calc-container.calc-container .calc-bottom .calc-btn.two {
+  display: none;
+}
+#calc-container.calc-container .calc-logo {
+  margin-top: 5px;
+  display: block;
+  width: 100px;
+}
+#calc-container.calc-container .stButton .stFb, 
+#calc-container.calc-container .stButton .stTwbutton, 
+#calc-container.calc-container .stButton .stMainServices,
+#calc-container.calc-container .stButton .chicklets,
+#calc-container.calc-container .stButton .stButton_gradient,
+#calc-container.calc-container .stButton .stBubble_count {
+  box-sizing: content-box;
+}
+#calc-container.calc-container .calc-info {
+  margin: 0 0 5px;
+  padding-top: 20px;
+  border-top: 1px solid #e3e7ee;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 14px;
+}
+#calc-container.calc-container .calc-bottom {
+  margin: 0 0 5px;
+  padding-top: 20px;
+  border-top: 1px solid #e3e7ee;
+}
+#calc-container.calc-container .calc-bottom p {
+  margin: 7px 0;
+  line-height: normal;
+  font-size: 13px;
+}
+#calc-container.calc-container h3.calc-title br {
+  display: none;
+}
+.calc-chart-tooltip {
+  width: 170px;
+  background: #ff8106;
+  color:#fff;
+  font-family: "Verb";
+  font-weight: normal;
+  font-size:14px;
+  line-height:20px;
+  position:absolute;
+  display: none;
+  box-shadow: 5px 5px rgba(0,0,0,0.2);
+}
+.calc-chart-tooltip:after {
+  content:" ";
+  position:absolute;
+  width:20px;
+  height:20px;
+  background:#ff8106;
+  left:50%;
+  margin-left:-10px;
+  bottom: -10px;
+  transform:rotate(45deg);
+  z-index:1;
+}
+.calc-chart-tooltip .calc-chart-tooltip-wrap {
+  position:relative;
+  background:#ff8106;
+  z-index:2;
+  padding: 7px 10px;
+}
+
+
+#calc-container.md.calc-container .creditcard .calc-option-label { bottom: 88px; }
+#calc-container.md.calc-container .creditcard .calc-option-label.one { left: 183px; }
+#calc-container.md.calc-container .creditcard .calc-option-label.two { left: 344px; }
+#calc-container.md.calc-container .creditcard .calc-option-label.three { left: 507px; }
+
+#calc-container.md.calc-container .calc-form .payment .form-row .col {
+  width: 40%;
+}
+#calc-container.md.calc-container .details li:first-child {
+  width: 20%;
+}
+#calc-container.md.calc-container .details li:last-child {
+  width: 30%;
+}
+#calc-container.md.calc-container .details li span {
+  font-size: 18px;
+}
+#calc-container.md.calc-container .calc-form .payment.creditcard .form-row .col{
+  width: 50%; 
+}
+#calc-container.md.calc-container .creditcard .details li:last-child{
+  width: 20%;
+}
+
+
+#calc-container.sm.calc-container .creditcard .calc-option-label { bottom: 113px; }
+#calc-container.sm.calc-container .creditcard .calc-option-label.one { left: 158px; }
+#calc-container.sm.calc-container .creditcard .calc-option-label.two { left: 270px; }
+#calc-container.sm.calc-container .creditcard .calc-option-label.three { left: 383px; }
+
+
+#calc-container.sm.calc-container h3.calc-title {
+  position: relative;
+  line-height: 22px;
+  padding-top: 21px;
+  box-sizing: border-box;
+}
+#calc-container.sm.calc-container .calc-title .calc-float-right {
+  float: none;
+  position: absolute;
+  right: 5px;
+  top: 2px;
+}
+#calc-container.sm.calc-container h3.calc-title br {
+  display: inline;
+}
+#calc-container.sm.calc-container .calc-form .calc-debts .form-header {
+  font-size: 11px;
+  line-height: 12px;
+}
+#calc-container.sm.calc-container .calc-form .payment .form-row .col {
+  font-size: 11px;
+  width: 50%;
+}
+#calc-container.sm.calc-container .details li span {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#calc-container.sm.calc-container .details li {
+  font-size: 11px;
+  padding: 10px 5px 0;
+  height: 70px;
+}
+#calc-container.sm.calc-container .options thead th.solution {
+  width: 120px;
+}
+#calc-container.sm.calc-container .options thead th.payment {
+  width: 90px;
+}
+#calc-container.sm.calc-container .options th.payoff,
+#calc-container.sm.calc-container .options td.payoff,
+#calc-container.sm.calc-container .options th.payment span.one,
+#calc-container.sm.calc-container .options th.interest span {
+  display: none;
+}
+#calc-container.sm.calc-container .options th.payment span.two {
+  display: inline;
+}
+#calc-container.sm.calc-container .calc-bottom .calc-btn {
+  float: none;
+  margin: 10px auto 0px;
+}
+#calc-container.sm.calc-container .calc-bottom .calc-btn.one {
+  display: none;
+}
+#calc-container.sm.calc-container .calc-bottom .calc-btn.two {
+  display: block;
+}
+#calc-container.sm.calc-container .calc-logo {
+  margin: 10px auto 0;
+}
+#calc-container.sm.calc-container .calc-bottom p {
+  text-align: center;
+  margin: 0;
+}
+#calc-container.sm.calc-container .calc-bottom p br {
+  display: none;    
+}
+#calc-container.sm.calc-container .ui-selectmenu-button span.ui-selectmenu-text {
+  font-size: 11px;
+  line-height: 19px;
+}
+#calc-container.sm.calc-container .ui-selectmenu-button {
+  /*padding: 2px;*/
+}
+#calc-container.sm.calc-container .creditcard .chart .chart-details, 
+#calc-container.sm.calc-container .consolidation .chart .chart-details{
+  text-align: center;
+  margin: 35px 0 0 0;
+  padding: 12px 0 0px 0;
+}
+#calc-container.sm.calc-container .creditcard .chart .chart-details{
+    margin: 5px 0 0 0;
+}
+#calc-container.sm.calc-container .creditcard .chart .chart-details li, 
+#calc-container.sm.calc-container .consolidation .chart .chart-details li{
+  padding: 12px 0 0px 30px;
+}
+
+#calc-container.sm.calc-container .calc-form .payment.creditcard .form-row > .col:first-child{
+    width: 56%;
+}
+#calc-container.sm.calc-container .calc-form .payment.creditcard .form-row > .col:last-child{
+    width: 44%;
+}
+#calc-container.sm.calc-container .calc-form .payment .form-row .col.additional-group .control{
+    width: 46%;
+}
+#calc-container.sm.calc-container .calc-form.guilt .form-result .col span{
+  padding: 10px 0px 0 0px;
+  display: block;
+}
+
+
+#calc-container.calc-container.xs .calc-form .form-row a.delete{
+      right: 2px;
+    top: 7px;
+}
+
+#calc-container.xs.calc-container .creditcard .calc-option-label { display: none; }
+
+
+#calc-container.xs.calc-container .consolidation .chart .chart-xAxis-labels {
+  bottom: 95px;
+  font-size: 11px;
+}
+
+
+#calc-container.xs.calc-container .calc-title .calc-float-right { 
+  display: none;
+}
+#calc-container.xs.calc-container h3.calc-title br {
+  display: none;
+}
+#calc-container.xs.calc-container h3.calc-title {
+  padding:10px 20px;
+  height: auto;
+}
+#calc-container.xs.calc-container .calc-form .calc-debts .form-header {
+  display: none;
+}
+#calc-container.xs.calc-container .calc-form .calc-debts .form-row {
+  height: auto;
+}  
+#calc-container.xs.calc-container .calc-form .calc-debts .form-row label {
+  display: block;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
+#calc-container.xs.calc-container .calc-form .col {
+  float: none;
+  width: auto !important;
+  margin-bottom: 5px;
+  padding: 0;
+  height: 60px;
+}
+#calc-container.xs.calc-container .calc-form .payment .form-row .col {
+  float: none;
+  width: auto;
+  height: auto;
+}
+#calc-container.xs.calc-container .calc-form .payment .form-row.trim .col:first-child {
+  display: none;
+}
+#calc-container.xs.calc-container .calc-form .payment .or {
+  width: 150px;
+}
+#calc-container.xs.calc-container .calc-form .payment .form-row .col .help {
+  left: 76%;
+}
+#calc-container.xs.calc-container h3.calc-result-title {
+  height: auto;
+  line-height: 22px;
+  padding: 10px 20px;
+  position: relative;
+}
+#calc-container.xs.calc-container h3.calc-result-title a.toggler {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  margin-top: -11px;
+}
+#calc-container.xs.calc-container .details li {
+  width: 50%;
+}
+#calc-container.xs.calc-container .details li:first-child {
+  width: 50%;
+}
+#calc-container.xs.calc-container .details li:last-child {
+  width: 50%;
+}
+#calc-container.xs.calc-container .chart .chart-graph {
+  float: none;
+  display: block;
+  margin: 0 auto;
+}
+#calc-container.xs.calc-container .chart .chart-details {
+  margin: 0; padding: 0;
+}
+#calc-container.xs.calc-container .options th.balance,
+#calc-container.xs.calc-container .options th.interest,
+#calc-container.xs.calc-container .options th.payoff,
+#calc-container.xs.calc-container .options td.balance,
+#calc-container.xs.calc-container .options td.interest,
+#calc-container.xs.calc-container .options td.payoff {
+  display: none;
+}
+#calc-container.xs.calc-container .options thead th.solution {
+  width: auto;
+}
+#calc-container.xs.calc-container .options thead th.payment {
+  width: 65px;
+}
+#calc-container.xs.calc-container .calc-bottom .calc-btn.two {
+  font-size: 15px;
+  padding: 0;
+  height: 41px;
+  line-height: 41px;
+  max-width: 100%;
+}
+#calc-container.xs.calc-container .calc-btn.lg{
+  display: block;
+  max-width: 80%;
+  margin: 5px auto;
+}
+#calc-container.xs.calc-container .calc-form .payment .form-row .col.additional-group .control{
+    width: 47%;
+}
+#calc-container.xs.calc-container .calc-form .payment.creditcard .form-row .or{
+  width: 100%;
+}
+
+#calc-container.xs.calc-container .creditcard .details li{
+  width: 33.333333% !important;
+  border: none;
+  border-right: 1px solid #e3e7ee;
+  margin: 0 0 12px 0;
+}
+#calc-container.xs.calc-container .creditcard .details > li:nth-child(3){
+  border: none;
+}
+#calc-container.xs.calc-container .repayment .details li{
+  margin: 0 0 12px 0; 
+}
+#calc-container.xs.calc-container .repayment .details > li:nth-child(2){
+  border: none;
+}
+
+
+#calc-container.xs-1.calc-container .consolidation .chart .chart-xAxis-labels {
+  bottom: 95px;
+}
+
+
+#calc-container.xs-2.calc-container .calc-result .calc-result-content {
+  padding: 12px 15px;
+}
+#calc-container.xs-2.calc-container .calc-bottom .calc-btn.two{
+  font-size: 14px;
+  letter-spacing: -1px;
+}
+#calc-container.xs-2.calc-container .creditcard .chart .chart-details, #calc-container.calc-container .consolidation .chart .chart-details{
+  text-align: left;
+}
+
+
+#calc-container.xs-3.calc-container .consolidation .chart .chart-xAxis-labels {
+  bottom: 128px;
+}
